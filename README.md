@@ -51,15 +51,6 @@
 
 ---
 
-## Architecture Diagram
-
-See `architecture.png` for a simple overview of the setup:
-- Client ↔ Encrypted tunnel (TCP) ↔ Server
-- TUN devices on both sides (tun1, tun0)
-- Session key negotiation, login+password check
-
----
-
 ## Weaknesses & Security Recommendations
 
 - **No perfect forward secrecy**  
